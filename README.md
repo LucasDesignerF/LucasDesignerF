@@ -1,185 +1,227 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LucasDesignerF/LucasDesignerF/main/assets/profile-banner.png" width="100%" style="border-radius: 16px;" />
+<img src="https://imgur.com/uIjtj4Z.png" width="100%" style="border-radius: 18px;" />
 
-# ⚡ Lucas Fortes
+# 🚀 Nexus Platforms
 
-### 🎨 Designer • 💻 Python Developer • 🚀 SaaS Architect • 🧠 System Builder
+### 🧠 SaaS Engineering • ⚙️ Distributed Systems • 🤖 Automation Infrastructure
 
-<img src="https://img.shields.io/badge/Focus-SaaS%20%7C%20Automation%20%7C%20AI%20Systems-00A3FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Level-Builder%20%26%20Architect-8A2BE2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Active%20Development-00FFAA?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-SaaS%20%7C%20AI%20%7C%20Automation-7C3AED?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Architecture-Scalable%20Systems-0EA5E9?style=for-the-badge" />
 
 </div>
 
 ---
 
-## 🧬 Quem sou eu
+<div align="center">
+<img src="https://imgur.com/GMLw0Pg.png" width="160" style="border-radius: 100%;" />
 
-Sou **Lucas Fortes**, um criador de sistemas digitais que atua entre **design, engenharia de software e arquitetura de produtos SaaS**.
+### 👨‍💻 Lucas Fortes
+**Designer • Python Engineer • SaaS Builder • System Architect**
 
-Meu foco não é apenas programar — é construir **ecossistemas completos**:
-
-- Interfaces que fazem sentido
-- Backends que escalam
-- Automação que resolve problemas reais
-- Sistemas que funcionam como produto, não apenas código
-
-Atualmente desenvolvo projetos próprios envolvendo:
-- Infraestrutura Redis e sistemas distribuídos
-- Bots avançados para Discord (nível enterprise)
-- Plataformas SaaS com Flask + Python
-- Sistemas de segurança, SOC e análise inteligente
-- Ferramentas de automação e produtividade
+</div>
 
 ---
 
-## 🧠 Filosofia de desenvolvimento
+# 🧬 VISÃO
 
-> “Não construo scripts. Construo sistemas que pensam, escalam e evoluem.”
+> “Eu não construo sites. Eu construo sistemas que operam como produtos reais.”
 
-- Clean Architecture sempre que possível
-- Performance acima de complexidade desnecessária
-- Sistemas modulares e reutilizáveis
-- Foco em produto final, não só código
-- UX importa tanto quanto backend
+A **Nexus Platforms** nasce como um ecossistema de SaaS modulares focados em:
 
----
-
-## 🚀 Projetos principais
-
-### ⚡ Nexus Redis SaaS
-Plataforma de gerenciamento Redis com foco em performance, visual moderno e arquitetura escalável.
-
-- Dashboard em tempo real
-- Monitoramento de instâncias
-- Controle de dados estruturados
-- Interface SaaS moderna
+- Infraestrutura escalável
+- Automação inteligente
+- Sistemas distribuídos
+- APIs e serviços em tempo real
+- Experiência de usuário limpa e funcional
 
 ---
 
-### 🛡️ SENTINEL SOC Bot
-Sistema avançado de cybersegurança para Discord.
+# ⚡ PROJETO PRINCIPAL
 
-- AI Cyber Analyst
-- Threat Intelligence automation
-- Logs em tempo real
-- Simulação de SOC (Security Operations Center)
-- Análise de eventos e comportamento
+## 📡 SMS PLATFORM — Nexus Temporary Numbers System
 
----
+### 🧠 Visão do sistema
 
-### 🤖 Discord Automation Ecosystem
-Conjunto de bots para automação avançada:
+Uma plataforma SaaS completa para:
 
-- Sistema de filas (Queue System)
-- Event-driven architecture
-- Logs estruturados
-- Integração com APIs externas
-- Painéis administrativos
+- 📱 Geração de números temporários globais
+- 📩 Recebimento de SMS em tempo real
+- 🔐 Sistema de autenticação seguro (JWT)
+- 👤 Painel de usuário com dashboard completo
+- 🌍 Suporte multi-país
+- ⏳ Expiração automática de números
+- 💳 Sistema de planos (Free / Premium)
 
 ---
 
-### 🌐 Flask Startup Platform
-Framework interno para SaaS:
-
-- Auth system (login/registro)
-- Dashboard administrativo
-- JSON-based database layer
-- Estrutura leve e escalável
-- Integração com serviços externos
-
----
-
-## 🧩 Arquitetura que utilizo
+## 🧠 ARQUITETURA
 
 ```txt
-Frontend: Templates HTML + TailwindCSS
-Backend: Python (Flask / Async Systems)
-Database: Redis / MongoDB / JSON Hybrid
-Messaging: Event-driven / Queue systems
-Infra: Linux + Docker + VPS
+Frontend: HTML + TailwindCSS (server-rendered)
+Backend: FastAPI (async high-performance API)
+Database: SQLite (ORM via SQLAlchemy)
+Auth: JWT + Cookie Secure Sessions
+Async Layer: aiohttp + event-driven SMS polling
+Infra: Uvicorn + Linux VPS Ready
 ````
 
 ---
 
-## 🛠️ Stack tecnológica
+## ⚙️ CORE ENGINE
+
+### 🔐 Authentication System
+
+* JWT tokens com expiração
+* Cookies HTTPOnly seguros
+* Hash bcrypt via passlib
+
+---
+
+### 📡 SMS ENGINE
+
+* Integração com API externa (OnlineSMS abstraction layer)
+* Polling assíncrono de mensagens
+* Persistência estruturada no banco
+* Deduplicação inteligente de mensagens
+
+---
+
+### 📊 USER SYSTEM
+
+* Registro / Login completo
+* Controle de plano (Free / Premium)
+* Limites dinâmicos de uso
+* Expiração de recursos
+
+---
+
+### 📦 DATABASE MODEL
+
+* Users
+* Phone Numbers
+* SMS Messages
+* Relacionamento 1:N totalmente estruturado
+
+---
+
+# 🧠 FEATURES DO SISTEMA
+
+### 👤 Usuário
+
+* Criar conta
+* Login seguro
+* Dashboard dinâmico
+* Perfil editável
+
+---
+
+### 📱 Números temporários
+
+* Aquisição por país
+* Expiração automática
+* Limite por plano
+* Deleção segura
+
+---
+
+### 📩 Mensagens SMS
+
+* Recebimento em tempo real
+* Marcação como lida
+* Histórico completo por número
+* API de polling
+
+---
+
+### 🧾 Dashboard
+
+* Total de números ativos
+* Total de mensagens recebidas
+* Mensagens não lidas
+* Status de conta
+
+---
+
+# 🧩 ECOSSISTEMA NEXUS
+
+Este projeto faz parte de um ecossistema maior:
+
+* ⚡ Nexus Redis SaaS (infraestrutura de dados)
+* 📡 SMS Platform (comunicação temporária)
+* 🤖 Discord Automation Systems
+* 🛡️ Sentinel SOC AI (cyber intelligence layer)
+* 🌐 Future: Nexus Cloud Core
+
+---
+
+# 🛠️ STACK COMPLETO
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge\&logo=flask)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge\&logo=redis)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi)
+![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-red?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-000000?style=for-the-badge)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+# 🧠 PRINCÍPIOS DE ENGENHARIA
+
+* Clean async architecture
+* Modular service isolation
+* Stateless API design
+* Secure token-based auth
+* Minimal frontend coupling
+* Production-first mindset
+
+---
+
+# 🚀 ROADMAP
+
+* [x] Auth system completo
+* [x] SMS engine base
+* [x] Dashboard funcional
+* [x] Multi-country numbers
+* [ ] WebSocket realtime SMS updates
+* [ ] Stripe / payment integration
+* [ ] Multi-tenant SaaS architecture
+* [ ] Redis caching layer
+* [ ] API public Nexus SMS
+* [ ] Mobile-first UI redesign
+
+---
+
+# 🧠 STATUS DO PROJETO
+
+```txt
+MODE: ACTIVE DEVELOPMENT
+STAGE: MVP → SaaS Evolution
+FOCUS: Scalability + Productization
+```
+
+---
+
+# 🤝 BUILDING
+
+Este projeto não é apenas código.
+
+É a base de um ecossistema SaaS completo chamado:
+
+> ⚡ NEXUS PLATFORMS
+
+---
+
+# 📡 CONTACT
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=LucasDesignerF&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDesignerF&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-
-</div>
-
----
-
-## 🧠 O que estou construindo agora
-
-* 🧠 Sistemas com IA aplicada a automação
-* ⚙️ Infraestrutura SaaS escalável
-* 🛡️ Ferramentas de SOC e cyber intelligence
-* 🤖 Bots Discord nível enterprise
-* 🌐 Plataformas web completas com Flask
-* 📡 Sistemas baseados em eventos (event-driven systems)
-
----
-
-## 📈 Roadmap pessoal
-
-* [x] Arquitetura base de bots e SaaS systems
-* [x] Sistemas Redis avançados
-* [x] Infraestrutura Flask modular
-* [ ] Plataforma SaaS multi-tenant
-* [ ] Engine de automação com IA
-* [ ] Sistema SOC completo independente
-* [ ] Framework próprio de bots
-
----
-
-## 🤝 Open to collaborate
-
-Procuro colaboração em:
-
-* Sistemas SaaS inovadores
-* IA aplicada a automação
-* Bots avançados para Discord
-* Infraestrutura escalável
-* Projetos open-source sérios
-* Sistemas de segurança e análise de dados
-
----
-
-## 🌐 Ecossistema
-
-* 🏢 Projetos próprios em tecnologia e hosting
-* ⚙️ Sistemas internos de automação e infraestrutura
-* 🧠 Pesquisa em IA aplicada a sistemas
-* 🚀 Desenvolvimento contínuo de ferramentas SaaS
-
----
-
-## 📡 Contato
-
-<div align="center">
-
-[Discord](https://discord.gg/AfyTFa8nKB) • [Email](mailto:contact@databitsolucoes.com) • [LinkedIn](https://www.linkedin.com/in/lucasfortes)
+[Discord](https://discord.gg/AfyTFa8nKB) • [Email](mailto:contact@databitsolucoes.com)
 
 </div>
 
@@ -187,25 +229,18 @@ Procuro colaboração em:
 
 <div align="center">
 
-### ⚡ “Construindo sistemas que conectam design, código e inteligência.”
+### ⚡ “Systems over scripts. Products over projects. Scale over complexity.”
 
 </div>
 
----
+## Se quiser dar o próximo salto ainda mais absurdo:
 
-<!--
-PROFILE NOTE:
-Este perfil representa um desenvolvedor focado em sistemas reais, arquitetura SaaS e automação inteligente.
--->
+Posso evoluir isso pra nível:
 
+* 🔥 README com **terminal fake interativo**
+* 🧠 “live system status” tipo dashboard SOC
+* ⚡ animação de typing + boot sequence estilo hacker
+* 🌐 landing page completa estilo SaaS real (GitHub + Vercel)
+* 🧩 arquitetura desenhada tipo whitepaper de startup
 
----
-
-Se quiser, posso levar isso ainda mais longe e transformar seu GitHub em nível:
-
-- 🔥 **:contentReference[oaicite:0]{index=0}**
-- 🧠 **:contentReference[oaicite:1]{index=1}**
-- 🚀 **:contentReference[oaicite:2]{index=2}**
-- 🧩 **ou :contentReference[oaicite:3]{index=3}**
-
-Só me fala o estilo.
+Só fala: **“modo enterprise” ou “modo cyberpunk máximo”**
