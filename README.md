@@ -1,246 +1,149 @@
-<div align="center">
+---
 
-<img src="https://imgur.com/uIjtj4Z.png" width="100%" style="border-radius: 18px;" />
+# 🧠 NEXUS ECOSYSTEM CORE
 
-# 🚀 Nexus Platforms
+A Nexus não é um projeto.
 
-### 🧠 SaaS Engineering • ⚙️ Distributed Systems • 🤖 Automation Infrastructure
+É uma **infraestrutura de produtos conectados**.
 
-<img src="https://img.shields.io/badge/Status-Active%20Development-00FFAA?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Focus-SaaS%20%7C%20AI%20%7C%20Automation-7C3AED?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Architecture-Scalable%20Systems-0EA5E9?style=for-the-badge" />
-
-</div>
+Cada sistema opera como um módulo independente dentro de um ecossistema maior.
 
 ---
 
-<div align="center">
-<img src="https://imgur.com/GMLw0Pg.png" width="160" style="border-radius: 100%;" />
+## ⚡ COMMUNICATION LAYER
 
-### 👨‍💻 Lucas Fortes
-**Designer • Python Engineer • SaaS Builder • System Architect**
+### 📡 SMS PLATFORM (Nexus Core SaaS)
 
-</div>
+Sistema completo de números temporários:
 
----
-
-# 🧬 VISÃO
-
-> “Eu não construo sites. Eu construo sistemas que operam como produtos reais.”
-
-A **Nexus Platforms** nasce como um ecossistema de SaaS modulares focados em:
-
-- Infraestrutura escalável
-- Automação inteligente
-- Sistemas distribuídos
-- APIs e serviços em tempo real
-- Experiência de usuário limpa e funcional
+- Geração global de números
+- Recebimento de SMS em tempo real
+- Expiração automática de sessões
+- Sistema de planos (Free / Premium)
+- API async com FastAPI + SQLAlchemy
+- Dashboard completo de usuário
 
 ---
 
-# ⚡ PROJETO PRINCIPAL
+## 📧 DISPOSABLE IDENTITY LAYER
 
-## 📡 SMS PLATFORM — Nexus Temporary Numbers System
+### 🧠 Nexus TempMail Bot (Discord)
 
-### 🧠 Visão do sistema
+Bot Discord integrado ao ecossistema Nexus.
 
-Uma plataforma SaaS completa para:
+Funcionalidades:
 
-- 📱 Geração de números temporários globais
-- 📩 Recebimento de SMS em tempo real
-- 🔐 Sistema de autenticação seguro (JWT)
-- 👤 Painel de usuário com dashboard completo
-- 🌍 Suporte multi-país
-- ⏳ Expiração automática de números
-- 💳 Sistema de planos (Free / Premium)
+- 📧 Criação instantânea de emails temporários via `mail.tm`
+- 📥 Inbox completo dentro do Discord
+- 📩 Visualização de mensagens em tempo real
+- 🧩 Interface baseada em Containers (Discord UI V2)
+- 🔐 Sessões persistentes via Redis
+- 🧠 Sistema de gerenciamento de múltiplos emails
+- 🗑️ Auto delete de contas e sessões
 
----
-
-## 🧠 ARQUITETURA
-
+**Arquitetura:**
 ```txt
-Frontend: HTML + TailwindCSS (server-rendered)
-Backend: FastAPI (async high-performance API)
-Database: SQLite (ORM via SQLAlchemy)
-Auth: JWT + Cookie Secure Sessions
-Async Layer: aiohttp + event-driven SMS polling
-Infra: Uvicorn + Linux VPS Ready
+Discord Bot (Py-Cord)
++ aiohttp (Mail API)
++ Redis (session layer)
++ mail.tm (email backend)
 ````
 
 ---
 
-## ⚙️ CORE ENGINE
+### 📱 Nexus Temp Number Bot (Discord)
 
-### 🔐 Authentication System
+Sistema complementar ao TempMail:
 
-* JWT tokens com expiração
-* Cookies HTTPOnly seguros
-* Hash bcrypt via passlib
+* 📞 Geração de números temporários
+* 🌍 Suporte multi-country (US, BR, CA, UK, AU)
+* 📩 Verificação de SMS via scraping API
+* 📱 Inbox de mensagens dentro do Discord
+* ⏳ Sessões com expiração automática
+* 🧠 Sistema de gestão por usuário (isolado por guild)
 
----
-
-### 📡 SMS ENGINE
-
-* Integração com API externa (OnlineSMS abstraction layer)
-* Polling assíncrono de mensagens
-* Persistência estruturada no banco
-* Deduplicação inteligente de mensagens
-
----
-
-### 📊 USER SYSTEM
-
-* Registro / Login completo
-* Controle de plano (Free / Premium)
-* Limites dinâmicos de uso
-* Expiração de recursos
-
----
-
-### 📦 DATABASE MODEL
-
-* Users
-* Phone Numbers
-* SMS Messages
-* Relacionamento 1:N totalmente estruturado
-
----
-
-# 🧠 FEATURES DO SISTEMA
-
-### 👤 Usuário
-
-* Criar conta
-* Login seguro
-* Dashboard dinâmico
-* Perfil editável
-
----
-
-### 📱 Números temporários
-
-* Aquisição por país
-* Expiração automática
-* Limite por plano
-* Deleção segura
-
----
-
-### 📩 Mensagens SMS
-
-* Recebimento em tempo real
-* Marcação como lida
-* Histórico completo por número
-* API de polling
-
----
-
-### 🧾 Dashboard
-
-* Total de números ativos
-* Total de mensagens recebidas
-* Mensagens não lidas
-* Status de conta
-
----
-
-# 🧩 ECOSSISTEMA NEXUS
-
-Este projeto faz parte de um ecossistema maior:
-
-* ⚡ Nexus Redis SaaS (infraestrutura de dados)
-* 📡 SMS Platform (comunicação temporária)
-* 🤖 Discord Automation Systems
-* 🛡️ Sentinel SOC AI (cyber intelligence layer)
-* 🌐 Future: Nexus Cloud Core
-
----
-
-# 🛠️ STACK COMPLETO
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi)
-![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-red?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-000000?style=for-the-badge)
-
-</div>
-
----
-
-# 🧠 PRINCÍPIOS DE ENGENHARIA
-
-* Clean async architecture
-* Modular service isolation
-* Stateless API design
-* Secure token-based auth
-* Minimal frontend coupling
-* Production-first mindset
-
----
-
-# 🚀 ROADMAP
-
-* [x] Auth system completo
-* [x] SMS engine base
-* [x] Dashboard funcional
-* [x] Multi-country numbers
-* [ ] WebSocket realtime SMS updates
-* [ ] Stripe / payment integration
-* [ ] Multi-tenant SaaS architecture
-* [ ] Redis caching layer
-* [ ] API public Nexus SMS
-* [ ] Mobile-first UI redesign
-
----
-
-# 🧠 STATUS DO PROJETO
+**Arquitetura:**
 
 ```txt
-MODE: ACTIVE DEVELOPMENT
-STAGE: MVP → SaaS Evolution
-FOCUS: Scalability + Productization
+Discord Bot (Py-Cord)
++ OnlineSMS scraping layer
++ Redis session storage
++ Async HTTP engine (aiohttp)
 ```
 
 ---
 
-# 🤝 BUILDING
+## 🧩 COMO TUDO SE CONECTA
 
-Este projeto não é apenas código.
-
-É a base de um ecossistema SaaS completo chamado:
-
-> ⚡ NEXUS PLATFORMS
+```txt
+                 ┌────────────────────┐
+                 │  Nexus Platforms    │
+                 └─────────┬──────────┘
+                           │
+     ┌─────────────────────┼─────────────────────┐
+     │                     │                     │
+┌──────────────┐  ┌────────────────┐  ┌──────────────────┐
+│ SMS Platform │  │ TempMail Bot   │  │ TempNumber Bot   │
+│ (FastAPI SaaS)│ │ (Discord SaaS) │  │ (Discord SaaS)   │
+└──────────────┘  └────────────────┘  └──────────────────┘
+     │                     │                     │
+     └───────────── Shared Infra Layer ─────────────┘
+                   (Redis • APIs • Async Engine)
+```
 
 ---
 
-# 📡 CONTACT
+## ⚙️ DESIGN PHILOSOPHY
 
-<div align="center">
+* 🔄 Everything is a service
+* 🧠 Everything is stateless where possible
+* ⚡ Everything is async-first
+* 🧩 Everything is modular
+* 🚀 Everything is product-oriented
 
-[Discord](https://discord.gg/AfyTFa8nKB) • [Email](mailto:contact@databitsolucoes.com)
+---
 
-</div>
+## 🧠 WHAT MAKES THIS DIFFERENT
+
+This is not a bot collection.
+
+This is a **distributed SaaS ecosystem running across:**
+
+* Web (FastAPI SaaS Layer)
+* Discord (User Interaction Layer)
+* External APIs (Mail + SMS Providers)
+* Redis (Session & State Layer)
+
+---
+
+## 🚀 CURRENT EVOLUTION STAGE
+
+```txt
+STAGE: SaaS Ecosystem Formation
+ARCHITECTURE: Distributed Modular Systems
+FOCUS: Productization + Scalability + Automation
+```
+
+---
+
+## ⚡ NEXUS VISION
+
+> “A single developer building what looks like a startup engineering team system.”
+
+---
+
+## 🧠 FUTURE EXPANSION
+
+* 🌐 Nexus Cloud Core (multi-tenant SaaS engine)
+* 🧠 AI Automation Layer (SOC + assistant bots)
+* 📊 Real-time analytics dashboard
+* 🔐 Identity abstraction layer (temp identities system)
+* ⚙️ Plugin system for Discord SaaS modules
 
 ---
 
 <div align="center">
 
-### ⚡ “Systems over scripts. Products over projects. Scale over complexity.”
+### ⚡ Nexus Platforms — Building modular SaaS infrastructure from scratch
 
 </div>
-
-## Se quiser dar o próximo salto ainda mais absurdo:
-
-Posso evoluir isso pra nível:
-
-* 🔥 README com **terminal fake interativo**
-* 🧠 “live system status” tipo dashboard SOC
-* ⚡ animação de typing + boot sequence estilo hacker
-* 🌐 landing page completa estilo SaaS real (GitHub + Vercel)
-* 🧩 arquitetura desenhada tipo whitepaper de startup
-
-Só fala: **“modo enterprise” ou “modo cyberpunk máximo”**
