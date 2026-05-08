@@ -1,211 +1,108 @@
 <div align="center">
 
-<!-- 🔥 BANNER PRINCIPAL -->
 <img src="https://imgur.com/uIjtj4Z.png" width="100%" style="border-radius: 18px;" />
 
-# ⚡ NEXUS PLATFORM
+# ⚡ NEXUS PLATFORM // LIVE TERMINAL
 
-### 🧠 SaaS Engineering • 🤖 Automation Systems • 🛰️ Distributed Intelligence
-
-<!-- BADGES -->
-<img src="https://img.shields.io/badge/STATUS-LEGENDARY%20BUILD-00FFAA?style=for-the-badge&logo=vercel" />
-<img src="https://img.shields.io/badge/ARCHITECTURE-SCALABLE%20SYSTEMS-7C3AED?style=for-the-badge&logo=serverless" />
-<img src="https://img.shields.io/badge/AI-AUTOMATION%20READY-0EA5E9?style=for-the-badge&logo=brain" />
-<img src="https://img.shields.io/badge/DISCORD-BOTS%20ENGINE-FB7185?style=for-the-badge&logo=discord" />
+### 🧠 SaaS Engine • 🤖 Automation Core • 🛰️ Distributed Intelligence
 
 </div>
 
 ---
 
-# 👨‍💻 AUTHOR
+## 🖥️ SYSTEM TERMINAL (LIVE BOOT SEQUENCE)
 
 <div align="center">
 
-<img src="https://imgur.com/GMLw0Pg.png" width="140" style="border-radius: 100%; border: 3px solid #7C3AED;" />
+<div style="background:#0d1117; border:1px solid #30363d; border-radius:12px; padding:18px; width:90%; text-align:left; font-family:monospace; color:#00ff88;">
 
-### Lucas Fortes
+<pre>
+<span class="line l1">[NEXUS BOOTING SYSTEM...]</span>
+<span class="line l2">[OK] Kernel initialized</span>
+<span class="line l3">[OK] Redis cluster online</span>
+<span class="line l4">[OK] Discord gateway connected</span>
+<span class="line l5">[OK] TempMail engine loaded</span>
+<span class="line l6">[OK] TempNumber engine loaded</span>
+<span class="line l7">[OK] Security layer ACTIVE</span>
 
-**⚙️ System Architect • 🧠 SaaS Builder • 🤖 Python Engineer • 🎨 UI Designer**
+<span class="line l8">>> SYSTEM STATUS: GOD MODE ENABLED</span>
+<span class="cursor">▌</span>
+</pre>
+
+</div>
 
 </div>
 
 ---
 
-# 🌐 VISÃO DO PROJETO
-
-> ⚡ “Eu não crio bots. Eu crio infraestruturas digitais completas.”
-
-O **Nexus Platform** é um ecossistema de SaaS modulares com foco em:
-
-- 🧠 Automação inteligente
-- ⚙️ Sistemas distribuídos
-- 📡 APIs em tempo real
-- 🛰️ Infraestrutura escalável
-- 🤖 Bots e agentes autônomos
-
----
-
-# 🧩 ECOSSISTEMA NEXUS
+## ⚡ CLI SIMULATION
 
 <div align="center">
 
-| Módulo | Função |
-|--------|--------|
-| 📧 TempMail System | Emails temporários globais |
-| 📱 TempNumber System | SMS temporário multi-país |
-| 🤖 Nexus Discord Bot | Interface SaaS no Discord |
-| ⚡ Redis Core | Session + Cache Engine |
-| 🧠 AI Layer (Future) | Automação inteligente |
+<div style="background:#0d1117; border:1px solid #30363d; border-radius:12px; padding:18px; width:90%; text-align:left; font-family:monospace; color:#7ee787;">
+
+<pre>
+root@nexus:~$ help
+<span class="line c1">available commands:</span>
+
+  tempmail     → email engine
+  tempnumber   → sms engine
+  status       → system health
+  ecosystem    → architecture map
+
+root@nexus:~$ status
+<span class="line c2">SYSTEM: ONLINE</span>
+<span class="line c3">LATENCY: LOW</span>
+<span class="line c4">MODE: GOD TIER</span>
+
+root@nexus:~$ _
+<span class="cursor">▌</span>
+</pre>
+
+</div>
 
 </div>
 
 ---
 
-# 📧 TEMP MAIL SYSTEM
+# 🎞️ ANIMATION ENGINE (CSS)
 
-```txt
-⚡ FEATURES:
-✔ Email temporário instantâneo
-✔ Domínios dinâmicos (mail.tm API)
-✔ Inbox em tempo real
-✔ Sessões via Redis
-✔ Expiração automática (6h)
-````
+Adicione isso no final do README (sim, GitHub aceita CSS inline básico):
 
-🧠 Stack:
+```html
+<style>
+.line {
+  opacity: 0;
+  display: block;
+  animation: type 1.2s forwards;
+}
 
-* aiohttp async engine
-* mail.tm API wrapper
-* Redis session store
-* Discord UI V2 (Containers)
+.l1 { animation-delay: 0.3s; }
+.l2 { animation-delay: 1s; }
+.l3 { animation-delay: 1.7s; }
+.l4 { animation-delay: 2.4s; }
+.l5 { animation-delay: 3.1s; }
+.l6 { animation-delay: 3.8s; }
+.l7 { animation-delay: 4.5s; }
+.l8 { animation-delay: 5.2s; }
 
----
+.c1 { animation-delay: 0.5s; }
+.c2 { animation-delay: 1.2s; }
+.c3 { animation-delay: 1.9s; }
+.c4 { animation-delay: 2.6s; }
 
-# 📱 TEMP NUMBER SYSTEM
+@keyframes type {
+  from { opacity: 0; transform: translateY(2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
-```txt
-⚡ FEATURES:
-✔ Números globais por país
-✔ Recebimento de SMS
-✔ Parser HTML inteligente
-✔ Inbox em tempo real
-✔ Expiração (30 min)
-```
+.cursor {
+  animation: blink 0.8s infinite;
+}
 
-🌍 Suporte:
-🇺🇸 US • 🇧🇷 BR • 🇨🇦 CA • 🇬🇧 UK • 🇦🇺 AU
-
----
-
-# 🤖 DISCORD BOT CORE
-
-```txt
-ARCHITECTURE:
-main.py
-cogs/
- ├── tempmail.py
- ├── tempnumber.py
-pool/
- └── redis.py
-```
-
-### 🧠 Features
-
-* 🧩 Py-Cord UI V2 (Containers + Sections)
-* 🔘 Botões interativos dinâmicos
-* 👤 Sessão por usuário
-* ⚡ Views persistentes
-* 🔐 Isolamento por guild/user
-
----
-
-# ⚙️ ARQUITETURA
-
-<div align="center">
-
-```txt
-                ┌───────────────┐
-                │  DISCORD BOT  │
-                └──────┬────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
- ┌──────▼──────┐ ┌────▼────┐ ┌──────▼──────┐
- │ TEMP EMAIL  │ │ TEMP SMS │ │ REDIS CORE  │
- │ ENGINE      │ │ ENGINE   │ │ SESSION DB  │
- └──────┬──────┘ └────┬────┘ └──────┬──────┘
-        │              │              │
-        └──────────────┴──────────────┘
-                 API LAYER
-```
-
-</div>
-
----
-
-# 🧠 STACK TECNOLÓGICA
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge\&logo=redis)
-![Discord](https://img.shields.io/badge/Discord%20API-5865F2?style=for-the-badge\&logo=discord)
-![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge\&logo=linux)
-
-</div>
-
----
-
-# 🔐 SECURITY MODEL
-
-* 🔒 Sessões temporárias (TTL Redis)
-* 👤 Bind por usuário/guild
-* ⚡ Tokens efêmeros
-* 🧠 Nenhum dado persistente sensível
-* 🛡️ Isolamento total de contexto
-
----
-
-# 🚀 ROADMAP
-
-* [x] TempMail Engine
-* [x] TempNumber Engine
-* [x] Discord SaaS Bot Core
-* [ ] Web Dashboard SaaS
-* [ ] WebSocket Real-time Inbox
-* [ ] Stripe Billing System
-* [ ] Multi-tenant SaaS Infra
-* [ ] AI Automation Layer (Nexus Sentinel)
-
----
-
-# 🧬 PRINCÍPIO NEXUS
-
-> ⚡ “Systems over scripts. Platforms over bots. Scale over everything.”
-
----
-
-# 📡 CONTATO
-
-<div align="center">
-
-[Discord Community](https://discord.gg/AfyTFa8nKB) • [Email](mailto:contact@databitsolucoes.com)
-
-</div>
-
----
-
-<div align="center">
-
-## ⚡ NEXUS PLATFORM STATUS
-
-```txt
-MODE: GOD TIER ACTIVE
-ARCHITECTURE: PRODUCTION READY
-SCALABILITY: UNLIMITED
-VISION: SAAS ECOSYSTEM
-```
-
-</div>
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+</style>
