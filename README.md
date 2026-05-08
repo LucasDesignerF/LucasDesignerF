@@ -1,149 +1,211 @@
----
+<div align="center">
 
-# 🧠 NEXUS ECOSYSTEM CORE
+<!-- 🔥 BANNER PRINCIPAL -->
+<img src="https://imgur.com/uIjtj4Z.png" width="100%" style="border-radius: 18px;" />
 
-A Nexus não é um projeto.
+# ⚡ NEXUS PLATFORM
 
-É uma **infraestrutura de produtos conectados**.
+### 🧠 SaaS Engineering • 🤖 Automation Systems • 🛰️ Distributed Intelligence
 
-Cada sistema opera como um módulo independente dentro de um ecossistema maior.
+<!-- BADGES -->
+<img src="https://img.shields.io/badge/STATUS-LEGENDARY%20BUILD-00FFAA?style=for-the-badge&logo=vercel" />
+<img src="https://img.shields.io/badge/ARCHITECTURE-SCALABLE%20SYSTEMS-7C3AED?style=for-the-badge&logo=serverless" />
+<img src="https://img.shields.io/badge/AI-AUTOMATION%20READY-0EA5E9?style=for-the-badge&logo=brain" />
+<img src="https://img.shields.io/badge/DISCORD-BOTS%20ENGINE-FB7185?style=for-the-badge&logo=discord" />
 
----
-
-## ⚡ COMMUNICATION LAYER
-
-### 📡 SMS PLATFORM (Nexus Core SaaS)
-
-Sistema completo de números temporários:
-
-- Geração global de números
-- Recebimento de SMS em tempo real
-- Expiração automática de sessões
-- Sistema de planos (Free / Premium)
-- API async com FastAPI + SQLAlchemy
-- Dashboard completo de usuário
+</div>
 
 ---
 
-## 📧 DISPOSABLE IDENTITY LAYER
+# 👨‍💻 AUTHOR
 
-### 🧠 Nexus TempMail Bot (Discord)
+<div align="center">
 
-Bot Discord integrado ao ecossistema Nexus.
+<img src="https://imgur.com/GMLw0Pg.png" width="140" style="border-radius: 100%; border: 3px solid #7C3AED;" />
 
-Funcionalidades:
+### Lucas Fortes
 
-- 📧 Criação instantânea de emails temporários via `mail.tm`
-- 📥 Inbox completo dentro do Discord
-- 📩 Visualização de mensagens em tempo real
-- 🧩 Interface baseada em Containers (Discord UI V2)
-- 🔐 Sessões persistentes via Redis
-- 🧠 Sistema de gerenciamento de múltiplos emails
-- 🗑️ Auto delete de contas e sessões
+**⚙️ System Architect • 🧠 SaaS Builder • 🤖 Python Engineer • 🎨 UI Designer**
 
-**Arquitetura:**
+</div>
+
+---
+
+# 🌐 VISÃO DO PROJETO
+
+> ⚡ “Eu não crio bots. Eu crio infraestruturas digitais completas.”
+
+O **Nexus Platform** é um ecossistema de SaaS modulares com foco em:
+
+- 🧠 Automação inteligente
+- ⚙️ Sistemas distribuídos
+- 📡 APIs em tempo real
+- 🛰️ Infraestrutura escalável
+- 🤖 Bots e agentes autônomos
+
+---
+
+# 🧩 ECOSSISTEMA NEXUS
+
+<div align="center">
+
+| Módulo | Função |
+|--------|--------|
+| 📧 TempMail System | Emails temporários globais |
+| 📱 TempNumber System | SMS temporário multi-país |
+| 🤖 Nexus Discord Bot | Interface SaaS no Discord |
+| ⚡ Redis Core | Session + Cache Engine |
+| 🧠 AI Layer (Future) | Automação inteligente |
+
+</div>
+
+---
+
+# 📧 TEMP MAIL SYSTEM
+
 ```txt
-Discord Bot (Py-Cord)
-+ aiohttp (Mail API)
-+ Redis (session layer)
-+ mail.tm (email backend)
+⚡ FEATURES:
+✔ Email temporário instantâneo
+✔ Domínios dinâmicos (mail.tm API)
+✔ Inbox em tempo real
+✔ Sessões via Redis
+✔ Expiração automática (6h)
 ````
 
+🧠 Stack:
+
+* aiohttp async engine
+* mail.tm API wrapper
+* Redis session store
+* Discord UI V2 (Containers)
+
 ---
 
-### 📱 Nexus Temp Number Bot (Discord)
-
-Sistema complementar ao TempMail:
-
-* 📞 Geração de números temporários
-* 🌍 Suporte multi-country (US, BR, CA, UK, AU)
-* 📩 Verificação de SMS via scraping API
-* 📱 Inbox de mensagens dentro do Discord
-* ⏳ Sessões com expiração automática
-* 🧠 Sistema de gestão por usuário (isolado por guild)
-
-**Arquitetura:**
+# 📱 TEMP NUMBER SYSTEM
 
 ```txt
-Discord Bot (Py-Cord)
-+ OnlineSMS scraping layer
-+ Redis session storage
-+ Async HTTP engine (aiohttp)
+⚡ FEATURES:
+✔ Números globais por país
+✔ Recebimento de SMS
+✔ Parser HTML inteligente
+✔ Inbox em tempo real
+✔ Expiração (30 min)
 ```
+
+🌍 Suporte:
+🇺🇸 US • 🇧🇷 BR • 🇨🇦 CA • 🇬🇧 UK • 🇦🇺 AU
 
 ---
 
-## 🧩 COMO TUDO SE CONECTA
+# 🤖 DISCORD BOT CORE
 
 ```txt
-                 ┌────────────────────┐
-                 │  Nexus Platforms    │
-                 └─────────┬──────────┘
-                           │
-     ┌─────────────────────┼─────────────────────┐
-     │                     │                     │
-┌──────────────┐  ┌────────────────┐  ┌──────────────────┐
-│ SMS Platform │  │ TempMail Bot   │  │ TempNumber Bot   │
-│ (FastAPI SaaS)│ │ (Discord SaaS) │  │ (Discord SaaS)   │
-└──────────────┘  └────────────────┘  └──────────────────┘
-     │                     │                     │
-     └───────────── Shared Infra Layer ─────────────┘
-                   (Redis • APIs • Async Engine)
+ARCHITECTURE:
+main.py
+cogs/
+ ├── tempmail.py
+ ├── tempnumber.py
+pool/
+ └── redis.py
 ```
 
----
+### 🧠 Features
 
-## ⚙️ DESIGN PHILOSOPHY
-
-* 🔄 Everything is a service
-* 🧠 Everything is stateless where possible
-* ⚡ Everything is async-first
-* 🧩 Everything is modular
-* 🚀 Everything is product-oriented
+* 🧩 Py-Cord UI V2 (Containers + Sections)
+* 🔘 Botões interativos dinâmicos
+* 👤 Sessão por usuário
+* ⚡ Views persistentes
+* 🔐 Isolamento por guild/user
 
 ---
 
-## 🧠 WHAT MAKES THIS DIFFERENT
+# ⚙️ ARQUITETURA
 
-This is not a bot collection.
-
-This is a **distributed SaaS ecosystem running across:**
-
-* Web (FastAPI SaaS Layer)
-* Discord (User Interaction Layer)
-* External APIs (Mail + SMS Providers)
-* Redis (Session & State Layer)
-
----
-
-## 🚀 CURRENT EVOLUTION STAGE
+<div align="center">
 
 ```txt
-STAGE: SaaS Ecosystem Formation
-ARCHITECTURE: Distributed Modular Systems
-FOCUS: Productization + Scalability + Automation
+                ┌───────────────┐
+                │  DISCORD BOT  │
+                └──────┬────────┘
+                       │
+        ┌──────────────┼──────────────┐
+        │              │              │
+ ┌──────▼──────┐ ┌────▼────┐ ┌──────▼──────┐
+ │ TEMP EMAIL  │ │ TEMP SMS │ │ REDIS CORE  │
+ │ ENGINE      │ │ ENGINE   │ │ SESSION DB  │
+ └──────┬──────┘ └────┬────┘ └──────┬──────┘
+        │              │              │
+        └──────────────┴──────────────┘
+                 API LAYER
 ```
 
----
-
-## ⚡ NEXUS VISION
-
-> “A single developer building what looks like a startup engineering team system.”
+</div>
 
 ---
 
-## 🧠 FUTURE EXPANSION
+# 🧠 STACK TECNOLÓGICA
 
-* 🌐 Nexus Cloud Core (multi-tenant SaaS engine)
-* 🧠 AI Automation Layer (SOC + assistant bots)
-* 📊 Real-time analytics dashboard
-* 🔐 Identity abstraction layer (temp identities system)
-* ⚙️ Plugin system for Discord SaaS modules
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge\&logo=redis)
+![Discord](https://img.shields.io/badge/Discord%20API-5865F2?style=for-the-badge\&logo=discord)
+![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge\&logo=linux)
+
+</div>
+
+---
+
+# 🔐 SECURITY MODEL
+
+* 🔒 Sessões temporárias (TTL Redis)
+* 👤 Bind por usuário/guild
+* ⚡ Tokens efêmeros
+* 🧠 Nenhum dado persistente sensível
+* 🛡️ Isolamento total de contexto
+
+---
+
+# 🚀 ROADMAP
+
+* [x] TempMail Engine
+* [x] TempNumber Engine
+* [x] Discord SaaS Bot Core
+* [ ] Web Dashboard SaaS
+* [ ] WebSocket Real-time Inbox
+* [ ] Stripe Billing System
+* [ ] Multi-tenant SaaS Infra
+* [ ] AI Automation Layer (Nexus Sentinel)
+
+---
+
+# 🧬 PRINCÍPIO NEXUS
+
+> ⚡ “Systems over scripts. Platforms over bots. Scale over everything.”
+
+---
+
+# 📡 CONTATO
+
+<div align="center">
+
+[Discord Community](https://discord.gg/AfyTFa8nKB) • [Email](mailto:contact@databitsolucoes.com)
+
+</div>
 
 ---
 
 <div align="center">
 
-### ⚡ Nexus Platforms — Building modular SaaS infrastructure from scratch
+## ⚡ NEXUS PLATFORM STATUS
+
+```txt
+MODE: GOD TIER ACTIVE
+ARCHITECTURE: PRODUCTION READY
+SCALABILITY: UNLIMITED
+VISION: SAAS ECOSYSTEM
+```
 
 </div>
