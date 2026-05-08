@@ -69,7 +69,7 @@ root@nexus:~$ _
 
 Adicione isso no final do README (sim, GitHub aceita CSS inline básico):
 
-```html
+
 <style>
 .line {
   opacity: 0;
