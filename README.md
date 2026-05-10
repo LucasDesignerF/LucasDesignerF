@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://imgur.com/uIjtj4Z.png" width="100%" style="border-radius: 18px;" />
+<img src="https://imgur.com/OtfTQKT.png" width="100%" style="border-radius: 18px;" />
 
 # ⚡ NEXUS PLATFORM // INTERACTIVE SYSTEM
 
