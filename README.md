@@ -1,256 +1,150 @@
-
-
 <div align="center">
 
-<img src="https://imgur.com/OtfTQKT.png" width="100%" style="border-radius: 18px;" />
+<img src="https://imgur.com/pLwTERt.png" width="100%" />
 
-# ⚡ NEXUS PLATFORM // INTERACTIVE SYSTEM
+<br>
 
-### 🧠 SaaS Engine • 🤖 Automation Core • 🛰️ Distributed Intelligence
+# LucasDesignerF
+
+### Software Engineer • Systems Architect • SaaS Developer
+
+<p>
+Building scalable platforms, automation systems and distributed applications using
+<strong>Python</strong>, <strong>Go</strong>, <strong>Rust</strong>, <strong>TypeScript</strong> and <strong>JavaScript</strong>.
+</p>
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=python,go,rust,ts,js,linux,redis,docker,git" />
 
 </div>
 
 ---
 
-# 🖥️ LIVE TERMINAL INTERFACE
+# ⚡ ABOUT
+
+```txt
+Name        : Lucas
+Role        : Software Engineer
+Focus       : Backend • Distributed Systems • Automation
+Architecture: SaaS Platforms • APIs • Cloud Systems
+Environment : Linux • Docker • Redis • VPS Infrastructure
+```
+
+---
+
+# 🧠 ENGINEERING PROFILE
+
+```txt
+> Designing scalable systems
+> Building Discord automation platforms
+> Developing real-time SaaS applications
+> Engineering secure API architectures
+> Creating high-performance backend services
+```
+
+---
+
+# 🚀 CURRENT ECOSYSTEM
+
+## 🤖 NEXUS PLATFORM
+
+```txt
+NEXUS is a modular ecosystem focused on:
+
+✔ Discord Automation
+✔ OAuth2 Authentication
+✔ Anti Raid / Anti Nuke
+✔ Ticket Systems
+✔ Cloud Infrastructure
+✔ Session Architecture
+✔ Scalable Backend Services
+```
+
+---
+
+# ⚙️ TECH STACK
 
 <div align="center">
 
-```txt
-╔════════════════════════════════════════════════╗
-║              NEXUS OPERATING SYSTEM           ║
-║──────────────────────────────────────────────║
-║ STATUS: ONLINE    MODE: GOD TIER            ║
-║ REGION: GLOBAL    LATENCY: LOW              ║
-╚══════════════════════════════════════════════╝
-
-root@nexus:~$ █
-````
+| Backend | Infrastructure | Systems | Frontend |
+|----------|----------------|----------|-----------|
+| Python | Docker | Redis | TypeScript |
+| Go | Linux | Distributed Systems | JavaScript |
+| Rust | VPS Infrastructure | Automation | Tailwind |
 
 </div>
 
 ---
 
-## ⚡ TERMINAL COMMANDS (CLICKABLE SIMULATION)
-
-> Clique para “executar comandos”
-
-* 🧠 [▶ boot system](#boot-sequence)
-* 📊 [▶ system status](#system-status)
-* 📧 [▶ temp mail engine](#tempmail-engine)
-* 📱 [▶ temp number engine](#temp-number-engine)
-* 🧬 [▶ ecosystem map](#ecosystem-map)
-* ⚙️ [▶ architecture](#architecture)
-* 🔐 [▶ security model](#security-model)
-
----
-
-# 🧠 BOOT SEQUENCE (SIMULATED EXECUTION)
-
-<a id="boot-sequence"></a>
+# 🛰️ SYSTEM ARCHITECTURE
 
 ```txt
-[NEXUS INITIALIZING...]
-
-[●] Loading kernel.................. OK
-[●] Connecting Redis layer.......... OK
-[●] Attaching Discord gateway....... OK
-[●] Booting TempMail engine......... OK
-[●] Booting TempNumber engine....... OK
-[●] Deploying UI renderer........... OK
-
-──────────────────────────────────────
->> SYSTEM STATUS: GOD MODE ENABLED
->> WELCOME BACK, ARCHITECT.
+                CLIENT LAYER
+                      │
+         ┌────────────┴────────────┐
+         │                         │
+    DISCORD CORE              WEB SERVICES
+         │                         │
+         └──────── API GATEWAY ────┘
+                      │
+               REDIS SESSION LAYER
+                      │
+              DISTRIBUTED SERVICES
+                      │
+                CLOUD INFRASTRUCTURE
 ```
 
 ---
 
-# 📊 SYSTEM STATUS (LIVE SIMULATION)
-
-<a id="system-status"></a>
+# 🔐 CORE PRINCIPLES
 
 ```txt
-SYSTEM HEALTH        100%
-ENGINE STATUS        STABLE
-LATENCY              12ms
-REDIS CLUSTER        ONLINE
-DISCORD GATEWAY      CONNECTED
-API LAYER            ACTIVE
-SCALABILITY          ∞ (UNLIMITED)
+✔ Performance-first architecture
+✔ Scalable infrastructure
+✔ Secure authentication flows
+✔ Real-time communication systems
+✔ Modular backend development
+✔ Clean and maintainable code
 ```
 
 ---
 
-# 📧 TEMP MAIL ENGINE
-
-<a id="tempmail-engine"></a>
+# 📊 DEVELOPMENT ENVIRONMENT
 
 ```txt
-root@nexus:~$ tempmail --status
-
-[CORE FEATURES]
-✔ Dynamic email generation (mail.tm)
-✔ Random domain allocation
-✔ Token-based authentication
-✔ Real-time inbox fetch
-✔ Redis session persistence
-✔ Auto-expiration (6h TTL)
-```
-
-### ⚙️ FLOW ENGINE
-
-```txt
-User → Request Email → Mail API → Token → Inbox Stream → Discord UI
+OS             : Linux
+Editor         : VSCode
+Runtime        : Python / Go / Node.js / Rust
+Database       : Redis
+Deployment     : VPS / Cloud
+Architecture   : Async + Distributed Systems
 ```
 
 ---
 
-# 📱 TEMP NUMBER ENGINE
+# 📡 CURRENT FOCUS
 
-<a id="temp-number-engine"></a>
-
-```txt
-root@nexus:~$ tempnumber --status
-
-[CORE FEATURES]
-✔ Multi-country number pool
-✔ SMS scraping engine
-✔ HTML parsing intelligence
-✔ Message deduplication layer
-✔ Session-based allocation
-✔ Auto-expiration (30 min TTL)
-```
-
-### 🌍 GLOBAL COVERAGE
-
-🇺🇸 United States
-🇧🇷 Brazil
-🇨🇦 Canada
-🇬🇧 United Kingdom
-🇦🇺 Australia
+- SaaS Platforms
+- Distributed Architectures
+- Discord Ecosystems
+- Automation Systems
+- Cloud Infrastructure
+- Backend Engineering
 
 ---
 
-# 🧬 ECOSYSTEM MAP
+# 🧠 PHILOSOPHY
 
-<a id="ecosystem-map"></a>
-
-```txt
-                     NEXUS CORE
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-   TEMP MAIL       TEMP NUMBER       DISCORD BOT
-        │                │                │
-        └───────┬────────┴────────┬───────┘
-                REDIS SESSION LAYER
-                         │
-                 API GATEWAY CORE
-                         │
-                 FUTURE AI LAYER
-```
-
----
-
-# ⚙️ ARCHITECTURE
-
-<a id="architecture"></a>
-
-```txt
-STACK OVERVIEW:
-
-Backend        → Python (async)
-API Layer      → aiohttp + FastAPI
-Bot System     → Py-Cord (UI V2)
-Database       → Redis (session engine)
-Scraping       → HTML parsers
-Infra          → Linux VPS ready
-```
-
----
-
-# 🤖 DISCORD BOT CORE
-
-```txt
-main.py
-cogs/
- ├── tempmail.py
- ├── tempnumber.py
-pool/
- └── redis.py
-```
-
-### FEATURES
-
-✔ UI Containers (Discord V2)
-✔ Buttons + Sections system
-✔ User-bound sessions
-✔ Persistent views
-✔ Secure isolation layer
-
----
-
-# 🔐 SECURITY MODEL
-
-<a id="security-model"></a>
-
-```txt
-✔ Ephemeral sessions only
-✔ Redis TTL enforcement
-✔ User-bound access control
-✔ No permanent sensitive storage
-✔ Tokenized API layers
-✔ Isolated execution context
-```
-
----
-
-# 🧠 ECOSYSTEM VISION
-
-> “Nexus is not a bot. It is a distributed SaaS operating system.”
-
-* 📡 Communication layer (Email + SMS)
-* 🤖 Automation layer (Discord)
-* ⚡ Real-time session engine (Redis)
-* 🛰️ API abstraction layer
-* 🧠 Future AI orchestration system
-
----
-
-# 🚀 ROADMAP
-
-```txt
-[✓] TempMail System
-[✓] TempNumber System
-[✓] Discord Bot Core
-[ ] Web SaaS Dashboard
-[ ] WebSocket real-time inbox
-[ ] Stripe billing system
-[ ] Multi-tenant architecture
-[ ] AI orchestration layer
-```
-
----
-
-# 🧠 FINAL TERMINAL STATE
-
-```txt
-root@nexus:~$ sudo nexus --mode=god
-
-[ SYSTEM STATUS ]  LEGENDARY
-[ ARCHITECTURE ]   FUTURE-GRADE
-[ PERFORMANCE ]    OPTIMIZED
-[ SCALABILITY ]    INFINITE
-```
+> “Good software is not only functional.  
+> It must be scalable, maintainable and reliable.”
 
 ---
 
 <div align="center">
 
-# ⚡ NEXUS PLATFORM
+## ⚡ LUCASDESIGNERF
 
-### “You don’t use software. You operate systems.”
+### Engineering scalable systems for modern platforms.
 
 </div>
-
